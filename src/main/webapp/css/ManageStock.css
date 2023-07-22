@@ -1,0 +1,187 @@
+@charset "ISO-8859-1";
+/* Blood Donation Page */
+
+.mainbox {
+    background-size: 100%;
+    border-radius: 20px;
+    margin-top:-40px;
+}
+
+.box2 {
+    background-image: url(adminback.png);
+    background-size: 100% 100%;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.adminpic {
+    height: 750px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.contentBx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.contentBx .formBx {
+    width: 95%;
+    padding: 5%;
+    background: rgba(251, 245, 247, 0.9);
+    margin: 50px;
+    border-radius: 10px;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.contentBx .formBx h2 {
+    color: #607d8b;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #ff4584;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+.contentBx .formBx .inputBx {
+    margin-bottom: 20px;
+}
+
+.contentBx .formBx .inputBx span {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #60748b;
+    font-weight: 300;
+    font-size: 16px;
+    Letter-spacing: 1px;
+}
+
+.contentBx .formBx .inputBx input {
+    width: 100%;
+    height: 40px;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid #607d8b;
+    font-size: 16px;
+    width: 100%;
+    Letter-spacing: 1px;
+    color: #607d8b;
+    background: transparent;
+    border-radius: 20px;
+}
+
+.contentBx .formBx .inputBx select {
+    width: 100%;
+    height: 40px;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid #607d8b;
+    font-size: 16px;
+    width: 100%;
+    Letter-spacing: 1px;
+    color: #607d8b;
+    background: transparent;
+    border-radius: 20px;
+}
+
+.contentBx .formBx .inputBx input[type="submit"] {
+    background: #dd2323;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.contentBx .formBx .inputBx input[type="submit"]:hover {
+    background: #a41414;
+}
+
+.contentBx .formBx .remember {
+    margin-bottom: 10px;
+    color: #607d8b;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.contentBx .formBx .inputBx p {
+    color: #607d8b;
+}
+
+.contentBx .formBx .inputBx p a {
+    color: #ff4584;
+}
+
+
+/* Radio Button */
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    height: 40px;
+    width: 70px;
+    padding: 7px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: white;
+    border: 2px solid red(150, 75%, 50%, 1);
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 3px 10px -2px hsla(150, 5%, 65%, 0.5);
+    position: relative;
+}
+
+bx.label {
+    height: 40px;
+    width: 500px;
+    padding: 7px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: white;
+    border: 2px solid red(150, 75%, 50%, 1);
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 3px 10px -2px hsla(150, 5%, 65%, 0.5);
+    position: relative;
+}
+
+label:hover {
+    background-color: rgba(194, 94, 94, 0.873);
+    color: white;
+}
+
+input[type="radio"]:checked+label {
+    background: rgb(223, 32, 32);
+    color: hsla(215, 0%, 100%, 1);
+}
+
+input[type="radio"]#control_05:checked+label {
+    background: red;
+    border-color: red;
+}
+
+/* table of stock management */
+
+.tablerow {
+    box-shadow: 1px 1px 4px;
+    border-radius: 10px;
+    height: 50px;
+    color: black;
+}
+
+.tablemain {
+    border-collapse: separate;
+    border-spacing: 60px 10px;
+    text-align: center;
+    color: red;
+}

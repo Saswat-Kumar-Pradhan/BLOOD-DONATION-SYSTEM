@@ -1,0 +1,38 @@
+@charset "ISO-8859-1";
+/* ================================ Navbar ================================= */
+
+.navbar {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.logo {
+    height: 130px;
+}
+
+.logo-name {
+    color: red;
+}
+
+.nav-item {
+    margin: 20px 10px;
+    font-weight: 700;
+    font-size:17px;
+    width: 150px;
+    text-align: center;
+}
+
+.profile {
+    height: 21px;
+}
+
+.active {
+    background-color: red;
+    border-radius: 25px;
+    color: white;
+}
+
+.nav-link:hover {
+    background-color: rgb(255, 162, 162);
+    border-radius: 25px;
+}
